@@ -1,0 +1,19 @@
+{
+	"name": "qr-code-p5js",
+	"version": "1.0.0",
+	"description": "QR Code visualization with p5.js",
+	"main": "index.html",
+	"homepage": "https://korag.github.io/PQR",
+	"scripts": {
+		"start": "npx http-server -p 8080",
+		"build": "echo 'No build step needed for static site'",
+		"deploy": "gh-pages -d ."
+	},
+	"dependencies": {
+		"lil-gui": "^0.20.0"
+	},
+	"devDependencies": {
+		"gh-pages": "^6.3.0",
+		"http-server": "^14.1.1"
+	}
+}
